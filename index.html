@@ -1,0 +1,228 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dilent Group Limited builds technology and connectivity solutions that help people and businesses move forward.">
+  <title>Dilent Group Limited | Innovate. Connect. Elevate.</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #10243a;
+      --teal: #087f8c;
+      --pale: #eef6f7;
+      --ink: #263746;
+      --muted: #617282;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1100px, 90%); margin: auto; }
+    header {
+      background: var(--white);
+      border-bottom: 1px solid #e5ebef;
+    }
+    nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      color: var(--navy);
+      font-weight: 800;
+      font-size: 1.25rem;
+      text-decoration: none;
+      letter-spacing: -.4px;
+    }
+    .brand span { color: var(--teal); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .nav-link {
+      color: var(--navy);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .hero {
+      background: linear-gradient(135deg, var(--navy), #17445b);
+      color: var(--white);
+      padding: 100px 0 95px;
+    }
+    .eyebrow {
+      color: #80e0dc;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+      font-size: .78rem;
+    }
+    h1 {
+      max-width: 780px;
+      font-size: clamp(2.5rem, 6vw, 4.8rem);
+      line-height: 1.08;
+      letter-spacing: -2px;
+      margin: 18px 0;
+    }
+    .hero p {
+      max-width: 670px;
+      font-size: 1.15rem;
+      color: #dce8ef;
+    }
+    .button {
+      display: inline-block;
+      background: #80e0dc;
+      color: var(--navy);
+      font-weight: 800;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 7px;
+      margin-top: 16px;
+    }
+    section { padding: 75px 0; }
+    .section-heading { max-width: 700px; margin-bottom: 32px; }
+    h2 { color: var(--navy); font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.2; }
+    .section-heading p, .muted { color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+    .card {
+      border: 1px solid #e0e8ed;
+      border-radius: 12px;
+      padding: 25px;
+      background: var(--white);
+    }
+    .card h3 { color: var(--navy); margin-top: 0; }
+    .number { color: var(--teal); font-weight: 800; letter-spacing: 1px; }
+    .pale { background: var(--pale); }
+    .values {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .value {
+      padding: 20px;
+      border-left: 3px solid var(--teal);
+      background: var(--white);
+    }
+    .value h3 { margin: 0 0 5px; color: var(--navy); }
+    .contact-panel {
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 14px;
+      padding: clamp(25px, 5vw, 50px);
+    }
+    .contact-panel h2 { color: var(--white); }
+    footer { background: #0a1928; color: #c9d5df; padding: 25px 0; font-size: .9rem; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; }
+    @media (max-width: 700px) {
+      .hero { padding: 70px 0; }
+      .grid, .values { grid-template-columns: 1fr; }
+      nav { min-height: 68px; }
+      h1 { letter-spacing: -1px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="#">DILENT<span> GROUP</span></a>
+      <div class="nav-links">
+        <a class="nav-link" href="#about">About us</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Dilent Group Limited</div>
+        <h1>Innovate. Connect. Elevate.</h1>
+        <p>Building practical technology and connectivity solutions that help people, businesses and communities move forward.</p>
+        <a class="button" href="#about">Discover Dilent</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-heading">
+          <div class="eyebrow" style="color:var(--teal)">Who we are</div>
+          <h2>Technology built around real needs.</h2>
+          <p>Dilent Group Limited is a technology-focused company exploring solutions across internet connectivity, business systems and emerging data services. We value useful innovation, dependable service and long-term partnerships.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="number">01 / CONNECTIVITY</div>
+            <h3>Internet infrastructure</h3>
+            <p class="muted">Supporting connectivity initiatives and exploring ways to make internet services more accessible, manageable and dependable.</p>
+          </article>
+          <article class="card">
+            <div class="number">02 / SOFTWARE</div>
+            <h3>ISP management systems</h3>
+            <p class="muted">Developing internet service provider management software, with validation and operational testing forming part of the journey.</p>
+          </article>
+          <article class="card">
+            <div class="number">03 / DATA</div>
+            <h3>Emerging AI and data services</h3>
+            <p class="muted">Exploring data services, annotation and African-language data opportunities to contribute to more inclusive AI systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pale">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2>How we think.</h2>
+          <p>Our approach is grounded in three simple principles.</p>
+        </div>
+        <div class="values">
+          <div class="value">
+            <h3>Innovate</h3>
+            <p class="muted">Explore thoughtful solutions to real-world challenges.</p>
+          </div>
+          <div class="value">
+            <h3>Connect</h3>
+            <p class="muted">Bring people, systems and opportunities closer together.</p>
+          </div>
+          <div class="value">
+            <h3>Elevate</h3>
+            <p class="muted">Build for sustainable progress, trust and shared value.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact-panel">
+          <div class="eyebrow">Let's build what comes next</div>
+          <h2>Good technology starts with a conversation.</h2>
+          <p>For business enquiries and future partnerships, check back here for official contact details as our public channels are established.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Dilent Group Limited</span>
+      <span>Innovate. Connect. Elevate.</span>
+      <span>&copy; <span id="year">2026</span> Dilent Group Limited</span>
+    </div>
+  </footer>
+</body>
+</html>
+
